@@ -11,4 +11,4 @@
 
 </p>
 
-<p>Note :Only register with two step verification and login user can use this application</p>
+<p>Note : register with two step verification and login  user only can use this application</p>
