@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap");
+
+* {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.register,
+.signin,
+.forgotpassword,
+.resetpassword {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background: linear-gradient(#efc3f3, #df3f3f) !important;
+}
+
+.register input,
+.signin input,
+.forgotpassword input,
+.resetpassword input,
+.shorturl input {
+  height: 50px;
+  width: 100%;
+  padding: 5px;
+  font-size: medium;
+  border-radius: 10px !important;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  box-sizing: border-box;
+}
+.activateaccount {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 20px;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background: linear-gradient(#e7caca, #d086da) !important;
+}
+
+.count {
+  border: 2px solid black;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background: linear-gradient(#e7caca, #d086da) !important;
+  font-size: larger !important;
+  color: rgb(53, 23, 82);
+}
+
+.short {
+  text-decoration: none !important;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background: linear-gradient(#ff0404, white, #d086da) !important;
+  border: 2px solid black;
+
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.title {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 20px;
+  background: linear-gradient(#ff0404, white, #d086da) !important;
+  color: rgb(65, 25, 65);
+  margin: 10px;
+}
+.dash {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 20px;
+  background: linear-gradient(#ff0404, white, #d086da) !important;
+}
+
+.url {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 20px;
+  width: 100vw;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background: linear-gradient(#e7caca, #745579) !important;
+}
+.url1 {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 20px;
+  width: 100vw;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background: linear-gradient(#ff0404, white, #d086da) !important;
+}
+th {
+  color: #351f38 !important;
+}
+nav a {
+  text-decoration: none !important;
+  color: black !important;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.navbar {
+  background: linear-gradient(#c55e5e, #d086da) !important;
+}
+.signup {
+  background-color: rgb(14, 134, 170);
+  padding: 10px;
+  border-radius: 10px;
+}
+.login,
+.home {
+  padding: 10px;
+}
+
+footer {
+  background: linear-gradient(#c55e5e, #d086da) !important;
+}
